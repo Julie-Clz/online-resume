@@ -316,6 +316,7 @@ font-weight: bold;
 }
 #carouselExampleIndicators > div > div > a > img {
   width: 300px;
+  height: 200px;
   margin: 0 auto;
 }
 .carousel-control-prev {
@@ -332,8 +333,10 @@ font-weight: bold;
 .carousel-item {
   text-align: center;
 }
-.carousel-indicators {
-  bottom: -40px;
+.carousel-caption {
+  padding-top: 0;
+  position: initial;
+  margin-bottom: 10px;
 }
 .carousel-indicators li {
   background-color: #fff;
