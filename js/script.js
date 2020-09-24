@@ -1,4 +1,5 @@
 window.onload = () => {
+  // Animation for changing language appearing
   const fadeText = () => {
     const bannerText = document.getElementById('banner-typed-text');
     if (bannerText) {
@@ -6,7 +7,7 @@ window.onload = () => {
       const terms = ["RUBY", "SQL", "HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
       setInterval(() => {
         
-        // Lui attribuer une classe fade-out (le faire disparaître)
+        // Lui attribuer une classe fade-out (le faire disparaître)s
         language.classList.remove("fade-in");
         language.classList.add("fade-out");
     
@@ -32,3 +33,13 @@ window.onload = () => {
   }
   fadeText();
 };
+
+// Events click on menu item or anywhere on the page to close toogle menu (navbar)
+$(document).click(function (event) {
+  var clickover = $(event.target);
+  var $navbar = $(".navbar-collapse");               
+  var _opened = $navbar.hasClass("show");
+  if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+      $navbar.collapse('hide');
+  }
+});
