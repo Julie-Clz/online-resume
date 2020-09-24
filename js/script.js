@@ -4,7 +4,6 @@ window.onload = () => {
     if (bannerText) {
       let language = document.querySelector("#banner-typed-text");
       const terms = ["RUBY", "SQL", "HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"];
-      console.log(terms);
       setInterval(() => {
         
         // Lui attribuer une classe fade-out (le faire disparaître)
