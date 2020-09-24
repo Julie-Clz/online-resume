@@ -103,6 +103,12 @@ body > nav {
   font-size: 28px;
   text-transform: uppercase;
 }
+#banner-typed-text {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
 .button1 {
   font-weight: bold;
   text-transform: uppercase;
