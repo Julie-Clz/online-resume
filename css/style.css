@@ -1,6 +1,7 @@
 /* GENERAL */
 html {
   scroll-behavior: smooth;
+  background: #c72c41;
 }
 
 body {
@@ -74,9 +75,6 @@ body > nav {
 .navbar-toggler {
   border: none;
 }
-/* .navbar-toggler:hover { */
-  /* border: none; */
-/* } */
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {

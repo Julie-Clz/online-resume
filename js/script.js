@@ -35,11 +35,11 @@ window.onload = () => {
 };
 
 // Events click on menu item or anywhere on the page to close toogle menu (navbar)
-$(document).click(function (event) {
-  var clickover = $(event.target);
-  var $navbar = $(".navbar-collapse");               
-  var _opened = $navbar.hasClass("show");
-  if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+$(document).click((event) => {
+    const clickover = $(event.target);
+    const $navbar = $(".navbar-collapse");
+    const _opened = $navbar.hasClass("show");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {
       $navbar.collapse('hide');
-  }
-});
+    }
+  });
